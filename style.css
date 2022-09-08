@@ -284,7 +284,6 @@ img{
     justify-content: center;
 }
 .experienciaGrid1{
-    margin-top: 1em;
     grid-column: 2/6;
     display: flex;
     flex-direction: column;
@@ -292,11 +291,23 @@ img{
     align-items: center;
     justify-content: end;
 }
+.Empresa{
+    margin-top: 10px;
+    font-size: 14px;
+}
 
 .cargo{
-    margin-top: 10px;
     position: absolute;
     z-index: 999999;
+    margin-bottom: 7px;
+}
+
+.experienciaGrid2,.cargo{
+    margin-top: 24px;
+}
+
+.fecha{
+    margin: 5px;
 }
 
 .experienciaGrid2{
@@ -336,7 +347,7 @@ img{
 .portafolio img{
     margin-top: 1em;
     width: 90%;
-    height:400px;
+    height:300px;
     border-radius: 1em;
     border: 0.5px solid var(--color7);
 }
